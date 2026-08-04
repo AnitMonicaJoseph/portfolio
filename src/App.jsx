@@ -29,13 +29,13 @@ export default function App() {
     },
     {
       title: "Job Hiring Portal",
-      tech: "Laravel, MySQL",
+      tech: "Python Django, MySQL",
       description:
         "Recruitment platform for employers and job seekers with job posting and application management features.",
     },
     {
       title: "Vehicle Auction System",
-      tech: "Laravel, MySQL",
+      tech: "Python Django, MySQL",
       description:
         "Online vehicle auction platform with bidding, vehicle listing, and auction management functionality.",
     },
@@ -83,11 +83,14 @@ export default function App() {
             </h2>
 
             <p className="text-gray-700 text-lg leading-8">
-              Backend Developer with experience in Laravel, PHP,
-              Python, Django, React, JavaScript, HTML, CSS and
+              Backend Developer specializing in Laravel, PHP,
+              Python Django, React, JavaScript, HTML, CSS and
               MySQL. Currently working as a Laravel Backend
-              Developer at eSight Solutions and passionate about
-              building scalable and user-friendly web applications.
+              Developer at Esight Solutions, focused on designing
+              and developing scalable web applications and
+              software solutions. Passionate about creating
+              efficient backend architectures, robust APIs and
+              user-centric digital experiences.
             </p>
           </div>
         </div>
@@ -105,34 +108,37 @@ export default function App() {
 
           <div className="bg-white rounded-xl shadow-md p-8 mb-6">
             <h3 className="text-2xl font-semibold">
-              Laravel Backend Developer
+              Laravel Backend Developer - Esight Solutions
             </h3>
             <p className="text-yellow-600 font-medium">
-              eSight Solutions
+              May 2026 – Present
             </p>
             <p className="mt-3 text-gray-700">
-              Working on Laravel-based web applications,
-              API development, database design, backend
-              architecture, and integration with frontend
-              applications.
+              Working on Laravel-based web and mobile application
+              solutions, including REST API development, database
+              design, backend architecture, and seamless integration
+              with frontend and Flutter applications. Focused on
+              building scalable, secure, and high-performance backend
+              systems.
             </p>
           </div>
 
           <div className="bg-white rounded-xl shadow-md p-8">
-            <h3 className="text-2xl font-semibold">
-              Technical Trainer
-            </h3>
+           <h3 className="text-xl font-semibold">
+  Technical Trainer – Santhisoft Technologies
+</h3>
 
-            <p className="text-yellow-600 font-medium">
-              January 2025 – March 2026
-            </p>
+           <p className="text-yellow-600 font-medium">
+  January 2025 – March 2026
+</p>
 
-            <p className="mt-3 text-gray-700">
-              Trained students in Laravel, PHP, Python Django,
-              HTML, CSS, and JavaScript. Guided students in
-              developing real-world web applications and
-              project-based learning activities.
-            </p>
+<p className="mt-3 text-gray-700">
+  Worked as a Technical Trainer at Santhisoft Technologies,
+  providing training in Laravel, PHP, Python Django, HTML,
+  CSS, and JavaScript. Mentored students in developing
+  real-world web applications, improving programming
+  skills, and completing project-based learning activities.
+</p>
           </div>
         </div>
       </section>
@@ -205,7 +211,7 @@ export default function App() {
             <h3 className="text-xl font-bold">
               Master of Computer Applications (MCA)
             </h3>
-            <p>Santhigiri College</p>
+            <p>Santhigiri College Of Computer Sciences</p>
             <p>MG University</p>
           </div>
 
@@ -243,13 +249,11 @@ export default function App() {
 </p>
            
             <p>💻</p>
-            <p>
+         <p>
   <button
     onClick={() =>
-      window.open(
-        "https://mail.google.com/mail/?view=cm&fs=1&to=anit@gmail.com",
-        "_blank"
-      )
+      window.location.href =
+        "https://mail.google.com/mail/?view=cm&fs=1&to=anitmonica415@gmail.com"
     }
     className="bg-yellow-400 text-black px-5 py-2 rounded-lg hover:bg-yellow-300 transition"
   >
