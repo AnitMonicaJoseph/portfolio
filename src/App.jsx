@@ -1,17 +1,17 @@
-import hero from "./assets/hero.png";
-
+import anitmonica from "./assets/anitmonica.jpeg";
 export default function App() {
   const skills = [
     "Laravel",
     "PHP",
-    "Python",
-    "Django",
+    "Python Django",
     "React",
     "JavaScript",
     "HTML",
     "CSS",
     "MySQL",
     "Git",
+    "RESTful APIs",
+    "Postman"
   ];
 
   const projects = [
@@ -68,7 +68,7 @@ export default function App() {
       >
         <div className="flex flex-col md:flex-row items-center gap-12">
           <img
-            src={hero}
+            src={anitmonica}
             alt="Anit Monica Joseph"
             className="w-72 h-72 rounded-full object-cover border-4 border-yellow-400 shadow-xl"
           />
@@ -230,9 +230,32 @@ export default function App() {
           </h2>
 
           <div className="space-y-4 text-lg">
-            <p>📧 anit@gmail.com</p>
-            <p>📞 998989898</p>
-            <p>💻 GitHub: www.git</p>
+            <p>
+  📧{" "}
+  <a
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=anit@gmail.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-yellow-400 hover:underline"
+  >
+    anitmonica415@gmail.com
+  </a>
+</p>
+           
+            <p>💻</p>
+            <p>
+  <button
+    onClick={() =>
+      window.open(
+        "https://mail.google.com/mail/?view=cm&fs=1&to=anit@gmail.com",
+        "_blank"
+      )
+    }
+    className="bg-yellow-400 text-black px-5 py-2 rounded-lg hover:bg-yellow-300 transition"
+  >
+    📧 Contact Me
+  </button>
+</p>
           </div>
         </div>
       </section>
